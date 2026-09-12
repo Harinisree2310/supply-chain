@@ -1,0 +1,110 @@
+[
+  {
+    "id": "P001",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "current_stock": 210,
+    "reorder_threshold": 150,
+    "safety_stock": 100,
+    "unit_weight_kg": 0.12
+  },
+  {
+    "id": "P002",
+    "name": "USB-C Charging Cable 1m",
+    "category": "Electronics",
+    "current_stock": 690,
+    "reorder_threshold": 200,
+    "safety_stock": 150,
+    "unit_weight_kg": 0.05
+  },
+  {
+    "id": "P003",
+    "name": "Bluetooth Earbuds",
+    "category": "Electronics",
+    "current_stock": 310,
+    "reorder_threshold": 120,
+    "safety_stock": 80,
+    "unit_weight_kg": 0.06
+  },
+  {
+    "id": "P004",
+    "name": "Laptop Stand",
+    "category": "Accessories",
+    "current_stock": 60,
+    "reorder_threshold": 80,
+    "safety_stock": 50,
+    "unit_weight_kg": 0.9
+  },
+  {
+    "id": "P005",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "current_stock": 185,
+    "reorder_threshold": 100,
+    "safety_stock": 60,
+    "unit_weight_kg": 0.85
+  },
+  {
+    "id": "P006",
+    "name": "Webcam 1080p",
+    "category": "Electronics",
+    "current_stock": 130,
+    "reorder_threshold": 90,
+    "safety_stock": 70,
+    "unit_weight_kg": 0.15
+  },
+  {
+    "id": "P007",
+    "name": "Desk Lamp LED",
+    "category": "Home Office",
+    "current_stock": 75,
+    "reorder_threshold": 60,
+    "safety_stock": 40,
+    "unit_weight_kg": 1.1
+  },
+  {
+    "id": "P008",
+    "name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "current_stock": 23,
+    "reorder_threshold": 25,
+    "safety_stock": 15,
+    "unit_weight_kg": 12.0
+  },
+  {
+    "id": "P009",
+    "name": "Portable SSD 1TB",
+    "category": "Electronics",
+    "current_stock": 260,
+    "reorder_threshold": 100,
+    "safety_stock": 70,
+    "unit_weight_kg": 0.05
+  },
+  {
+    "id": "P010",
+    "name": "Monitor Arm Mount",
+    "category": "Accessories",
+    "current_stock": 40,
+    "reorder_threshold": 50,
+    "safety_stock": 30,
+    "unit_weight_kg": 2.3
+  },
+  {
+    "id": "P011",
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "current_stock": 130,
+    "reorder_threshold": 70,
+    "safety_stock": 50,
+    "unit_weight_kg": 0.28
+  },
+  {
+    "id": "P012",
+    "name": "Standing Desk Converter",
+    "category": "Furniture",
+    "current_stock": 22,
+    "reorder_threshold": 30,
+    "safety_stock": 20,
+    "unit_weight_kg": 8.5
+  }
+]

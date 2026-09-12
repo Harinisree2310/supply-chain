@@ -1,0 +1,16 @@
+[
+  {"id": "R01", "from_location": "Shenzhen, CN", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.35, "transit_days": 16, "carbon_per_unit": 1.1},
+  {"id": "R02", "from_location": "Shenzhen, CN", "to_warehouse": "Bengaluru, IN", "mode": "air", "cost_per_unit": 1.90, "transit_days": 4, "carbon_per_unit": 9.8},
+  {"id": "R03", "from_location": "Hanoi, VN", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.30, "transit_days": 13, "carbon_per_unit": 1.0},
+  {"id": "R04", "from_location": "Hanoi, VN", "to_warehouse": "Bengaluru, IN", "mode": "air", "cost_per_unit": 1.70, "transit_days": 3, "carbon_per_unit": 8.9},
+  {"id": "R05", "from_location": "Chicago, US", "to_warehouse": "Bengaluru, IN", "mode": "air", "cost_per_unit": 2.60, "transit_days": 5, "carbon_per_unit": 11.4},
+  {"id": "R06", "from_location": "Chicago, US", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.55, "transit_days": 27, "carbon_per_unit": 1.6},
+  {"id": "R07", "from_location": "Guangzhou, CN", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.32, "transit_days": 15, "carbon_per_unit": 1.05},
+  {"id": "R08", "from_location": "Gothenburg, SE", "to_warehouse": "Bengaluru, IN", "mode": "air", "cost_per_unit": 2.10, "transit_days": 4, "carbon_per_unit": 9.2},
+  {"id": "R09", "from_location": "Gothenburg, SE", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.48, "transit_days": 20, "carbon_per_unit": 1.3},
+  {"id": "R10", "from_location": "Chennai, IN", "to_warehouse": "Bengaluru, IN", "mode": "road", "cost_per_unit": 0.12, "transit_days": 1, "carbon_per_unit": 0.4},
+  {"id": "R11", "from_location": "Busan, KR", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.38, "transit_days": 17, "carbon_per_unit": 1.15},
+  {"id": "R12", "from_location": "Busan, KR", "to_warehouse": "Bengaluru, IN", "mode": "air", "cost_per_unit": 1.95, "transit_days": 4, "carbon_per_unit": 9.6},
+  {"id": "R13", "from_location": "Rotterdam, NL", "to_warehouse": "Bengaluru, IN", "mode": "sea", "cost_per_unit": 0.42, "transit_days": 22, "carbon_per_unit": 1.25},
+  {"id": "R14", "from_location": "Rotterdam, NL", "to_warehouse": "Bengaluru, IN", "mode": "air", "cost_per_unit": 2.30, "transit_days": 4, "carbon_per_unit": 10.1}
+]

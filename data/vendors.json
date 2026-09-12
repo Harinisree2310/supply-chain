@@ -1,0 +1,91 @@
+[
+  {
+    "id": "V01", "name": "Shenzhen ElectroSource", "location": "Shenzhen, CN",
+    "reliability_score": 0.98, "avg_lead_time_days": 18, "carbon_index_per_unit": 4.2,
+    "products_supplied": [
+      {"product_id": "P001", "unit_price": 3.20, "min_order_qty": 200, "max_capacity_per_week": 2000},
+      {"product_id": "P003", "unit_price": 8.50, "min_order_qty": 100, "max_capacity_per_week": 1500},
+      {"product_id": "P009", "unit_price": 42.00, "min_order_qty": 50, "max_capacity_per_week": 800}
+    ]
+  },
+  {
+    "id": "V02", "name": "QuickPart Direct", "location": "Shenzhen, CN",
+    "reliability_score": 0.81, "avg_lead_time_days": 9, "carbon_index_per_unit": 4.0,
+    "products_supplied": [
+      {"product_id": "P001", "unit_price": 2.60, "min_order_qty": 300, "max_capacity_per_week": 1200},
+      {"product_id": "P002", "unit_price": 0.85, "min_order_qty": 500, "max_capacity_per_week": 4000},
+      {"product_id": "P006", "unit_price": 14.00, "min_order_qty": 100, "max_capacity_per_week": 900}
+    ]
+  },
+  {
+    "id": "V03", "name": "Vietnam Precision Mfg", "location": "Hanoi, VN",
+    "reliability_score": 0.93, "avg_lead_time_days": 14, "carbon_index_per_unit": 3.6,
+    "products_supplied": [
+      {"product_id": "P002", "unit_price": 0.95, "min_order_qty": 400, "max_capacity_per_week": 3500},
+      {"product_id": "P005", "unit_price": 22.00, "min_order_qty": 80, "max_capacity_per_week": 600},
+      {"product_id": "P011", "unit_price": 31.00, "min_order_qty": 60, "max_capacity_per_week": 500}
+    ]
+  },
+  {
+    "id": "V04", "name": "Midwest Furniture Co", "location": "Chicago, US",
+    "reliability_score": 0.95, "avg_lead_time_days": 6, "carbon_index_per_unit": 1.8,
+    "products_supplied": [
+      {"product_id": "P008", "unit_price": 65.00, "min_order_qty": 10, "max_capacity_per_week": 150},
+      {"product_id": "P012", "unit_price": 48.00, "min_order_qty": 15, "max_capacity_per_week": 200},
+      {"product_id": "P004", "unit_price": 9.50, "min_order_qty": 40, "max_capacity_per_week": 500}
+    ]
+  },
+  {
+    "id": "V05", "name": "BudgetGoods Wholesale", "location": "Guangzhou, CN",
+    "reliability_score": 0.68, "avg_lead_time_days": 11, "carbon_index_per_unit": 4.5,
+    "products_supplied": [
+      {"product_id": "P001", "unit_price": 2.10, "min_order_qty": 500, "max_capacity_per_week": 3000},
+      {"product_id": "P004", "unit_price": 6.80, "min_order_qty": 100, "max_capacity_per_week": 700},
+      {"product_id": "P007", "unit_price": 5.40, "min_order_qty": 100, "max_capacity_per_week": 600}
+    ]
+  },
+  {
+    "id": "V06", "name": "Nordic Office Supply", "location": "Gothenburg, SE",
+    "reliability_score": 0.97, "avg_lead_time_days": 8, "carbon_index_per_unit": 2.1,
+    "products_supplied": [
+      {"product_id": "P007", "unit_price": 8.90, "min_order_qty": 50, "max_capacity_per_week": 400},
+      {"product_id": "P010", "unit_price": 12.50, "min_order_qty": 30, "max_capacity_per_week": 300},
+      {"product_id": "P008", "unit_price": 78.00, "min_order_qty": 5, "max_capacity_per_week": 100}
+    ]
+  },
+  {
+    "id": "V07", "name": "Bharat Electro Components", "location": "Chennai, IN",
+    "reliability_score": 0.88, "avg_lead_time_days": 10, "carbon_index_per_unit": 2.9,
+    "products_supplied": [
+      {"product_id": "P002", "unit_price": 0.78, "min_order_qty": 600, "max_capacity_per_week": 5000},
+      {"product_id": "P006", "unit_price": 12.20, "min_order_qty": 120, "max_capacity_per_week": 1000},
+      {"product_id": "P009", "unit_price": 38.50, "min_order_qty": 60, "max_capacity_per_week": 700}
+    ]
+  },
+  {
+    "id": "V08", "name": "AudioTech Global", "location": "Busan, KR",
+    "reliability_score": 0.91, "avg_lead_time_days": 13, "carbon_index_per_unit": 3.3,
+    "products_supplied": [
+      {"product_id": "P003", "unit_price": 9.80, "min_order_qty": 80, "max_capacity_per_week": 1000},
+      {"product_id": "P011", "unit_price": 27.50, "min_order_qty": 50, "max_capacity_per_week": 400}
+    ]
+  },
+  {
+    "id": "V09", "name": "RapidStock Local", "location": "Chennai, IN",
+    "reliability_score": 0.75, "avg_lead_time_days": 3, "carbon_index_per_unit": 1.2,
+    "products_supplied": [
+      {"product_id": "P001", "unit_price": 3.90, "min_order_qty": 100, "max_capacity_per_week": 600},
+      {"product_id": "P005", "unit_price": 26.00, "min_order_qty": 40, "max_capacity_per_week": 300},
+      {"product_id": "P010", "unit_price": 14.80, "min_order_qty": 20, "max_capacity_per_week": 250}
+    ]
+  },
+  {
+    "id": "V10", "name": "GreenPack Logistics Mfg", "location": "Rotterdam, NL",
+    "reliability_score": 0.94, "avg_lead_time_days": 12, "carbon_index_per_unit": 1.5,
+    "products_supplied": [
+      {"product_id": "P004", "unit_price": 10.90, "min_order_qty": 30, "max_capacity_per_week": 350},
+      {"product_id": "P012", "unit_price": 55.00, "min_order_qty": 10, "max_capacity_per_week": 150},
+      {"product_id": "P009", "unit_price": 46.00, "min_order_qty": 40, "max_capacity_per_week": 400}
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "S001",
+    "product_id": "P002",
+    "vendor_id": "V02",
+    "route_id": "R02",
+    "quantity": 500,
+    "status": "in_transit",
+    "order_date": "2026-08-20",
+    "expected_arrival": "2026-08-24"
+  },
+  {
+    "id": "S002",
+    "product_id": "P008",
+    "vendor_id": "V04",
+    "route_id": "R05",
+    "quantity": 20,
+    "status": "in_transit",
+    "order_date": "2026-08-25",
+    "expected_arrival": "2026-08-30"
+  },
+  {
+    "id": "S003",
+    "product_id": "P005",
+    "vendor_id": "V03",
+    "route_id": "R04",
+    "quantity": 100,
+    "status": "resolved",
+    "order_date": "2026-08-15",
+    "expected_arrival": "2026-08-18",
+    "delay_reason": "customs hold at origin port"
+  },
+  {
+    "id": "S004",
+    "product_id": "P001",
+    "vendor_id": "V01",
+    "route_id": "R01",
+    "quantity": 800,
+    "status": "in_transit",
+    "order_date": "2026-08-28",
+    "expected_arrival": "2026-09-13"
+  },
+  {
+    "id": "S005",
+    "product_id": "P012",
+    "vendor_id": "V10",
+    "route_id": "R14",
+    "quantity": 15,
+    "status": "in_transit",
+    "order_date": "2026-09-05",
+    "expected_arrival": "2026-09-09"
+  }
+]

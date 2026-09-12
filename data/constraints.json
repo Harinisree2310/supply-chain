@@ -1,0 +1,8 @@
+{
+  "sla_delivery_days": 20,
+  "max_budget_per_order_usd": 5000,
+  "max_carbon_per_order_kg": 3000,
+  "min_acceptable_reliability_score": 0.70,
+  "min_safety_stock_buffer_pct": 0.9,
+  "notes": "verify() checks a proposed action against all of the above before it is accepted. If any constraint fails, state.status is set to 'blocked' and control routes back to diagnose_and_retrieve with the failed option excluded from future candidates."
+}

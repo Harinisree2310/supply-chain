@@ -1,0 +1,17 @@
+{
+  "notes": "Tracks vendor performance across past decisions.",
+  "vendors": {
+    "V09": {
+      "blocked_count": 0,
+      "chosen_count": 7
+    },
+    "V07": {
+      "blocked_count": 0,
+      "chosen_count": 2
+    },
+    "V06": {
+      "blocked_count": 0,
+      "chosen_count": 1
+    }
+  }
+}
