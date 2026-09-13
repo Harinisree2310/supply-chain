@@ -1,0 +1,132 @@
+[
+  {
+    "label": "ACT 1",
+    "timestamp": "2026-09-13T20:18:11",
+    "decision_log": [
+      "Monitoring inventory, shipments, and vendor data...",
+      "Disruption detected: low_stock (urgency 0.08)",
+      "Retrieved 4 candidate vendor/route combinations for P008.",
+      "2 of 4 plans satisfy all constraints.",
+      "Selected vendor Nordic Office Supply via air route. Reasoning: The chosen option, Vendor Nordic Office Supply via air route, is the best recovery plan due to its lower cost ($400.5 vs. $676.0), faster delivery time (12 days vs. 11 days), and higher reliability (0.97 vs. 0.95). Although the delivery time is longer than one of the rejected options, the overall cost-effectiveness and reliability make it the most desirable choice. The rejected alternatives, Vendor Midwest Furniture Co via air route, lost out because their cost was significantly higher and reliability was slightly lower, making them less efficient and potentially riskier options for the supply chain agent's needs.",
+      "Verification passed. Plan applied successfully."
+    ],
+    "status": "resolved",
+    "chosen_plan": {
+      "product_id": "P008",
+      "vendor_id": "V06",
+      "vendor_name": "Nordic Office Supply",
+      "route_id": "R08",
+      "route_mode": "air",
+      "quantity": 5,
+      "total_cost_usd": 400.5,
+      "total_carbon_kg": 56.5,
+      "total_days": 12,
+      "reliability_score": 0.97,
+      "score": 1.264
+    },
+    "justification": "The chosen option, Vendor Nordic Office Supply via air route, is the best recovery plan due to its lower cost ($400.5 vs. $676.0), faster delivery time (12 days vs. 11 days), and higher reliability (0.97 vs. 0.95). Although the delivery time is longer than one of the rejected options, the overall cost-effectiveness and reliability make it the most desirable choice. The rejected alternatives, Vendor Midwest Furniture Co via air route, lost out because their cost was significantly higher and reliability was slightly lower, making them less efficient and potentially riskier options for the supply chain agent's needs."
+  },
+  {
+    "label": "ACT 2",
+    "timestamp": "2026-09-13T20:18:27",
+    "decision_log": [
+      "Monitoring inventory, shipments, and vendor data...",
+      "Disruption detected: low_stock (urgency 0.889)",
+      "Retrieved 3 candidate vendor/route combinations for P006.",
+      "2 of 3 plans satisfy all constraints.",
+      "Selected vendor Bharat Electro Components via road route. Reasoning: The chosen option of Vendor Bharat Electro Components via road route is the best due to its lowest cost, shorter delivery time, and higher reliability. With a total cost of $1478.4, delivery taking just 11 days, and a reliability rate of 0.88, this plan offers significant value. In contrast, Vendor QuickPart Direct via air route, despite being quicker at 13 days, costs $1590.0 and has a lower reliability rate of 0.81, making it less desirable overall. Additionally, the significantly higher carbon footprint of 1380.0kg is not aligned with sustainability goals. Thus, the chosen option stands out as the most efficient, reliable, and cost-effective recovery plan.\n\n\nThe rejected options lost out for the following reasons:\n\n- The air route's higher cost of $1590.0 did not justify the shorter delivery time of 13 days, especially when considering the lower reliability of 0.81 and the higher carbon footprint of 1380.0kg.\n\n- The reliability gap between the chosen option and the rejected alternative (0.88 vs. 0.81) further diminished the appeal of the air route, as reliability is crucial for a successful supply chain recovery.\n\n\nTherefore, the cost-effectiveness, timeliness, and reliability of Vendor Bharat Electro Components via road route make it the superior choice for the supply chain agent's needs.",
+      "Verification passed. Plan applied successfully."
+    ],
+    "status": "resolved",
+    "chosen_plan": {
+      "product_id": "P006",
+      "vendor_id": "V07",
+      "vendor_name": "Bharat Electro Components",
+      "route_id": "R10",
+      "route_mode": "road",
+      "quantity": 120,
+      "total_cost_usd": 1478.4,
+      "total_carbon_kg": 396.0,
+      "total_days": 11,
+      "reliability_score": 0.88,
+      "score": 3.42
+    },
+    "justification": "The chosen option of Vendor Bharat Electro Components via road route is the best due to its lowest cost, shorter delivery time, and higher reliability. With a total cost of $1478.4, delivery taking just 11 days, and a reliability rate of 0.88, this plan offers significant value. In contrast, Vendor QuickPart Direct via air route, despite being quicker at 13 days, costs $1590.0 and has a lower reliability rate of 0.81, making it less desirable overall. Additionally, the significantly higher carbon footprint of 1380.0kg is not aligned with sustainability goals. Thus, the chosen option stands out as the most efficient, reliable, and cost-effective recovery plan.\n\n\nThe rejected options lost out for the following reasons:\n\n- The air route's higher cost of $1590.0 did not justify the shorter delivery time of 13 days, especially when considering the lower reliability of 0.81 and the higher carbon footprint of 1380.0kg.\n\n- The reliability gap between the chosen option and the rejected alternative (0.88 vs. 0.81) further diminished the appeal of the air route, as reliability is crucial for a successful supply chain recovery.\n\n\nTherefore, the cost-effectiveness, timeliness, and reliability of Vendor Bharat Electro Components via road route make it the superior choice for the supply chain agent's needs."
+  },
+  {
+    "label": "ACT 1",
+    "timestamp": "2026-09-13T20:18:43",
+    "decision_log": [
+      "Monitoring inventory, shipments, and vendor data...",
+      "No disruption detected. Staying in monitor mode."
+    ],
+    "status": "monitoring",
+    "chosen_plan": null,
+    "justification": ""
+  },
+  {
+    "label": "ACT 2",
+    "timestamp": "2026-09-13T20:18:53",
+    "decision_log": [
+      "Monitoring inventory, shipments, and vendor data...",
+      "Disruption detected: low_stock (urgency 0.889)",
+      "Retrieved 3 candidate vendor/route combinations for P006.",
+      "2 of 3 plans satisfy all constraints.",
+      "Selected vendor Bharat Electro Components via road route. Reasoning: The chosen option, Vendor Bharat Electro Components via road route, offers the best balance of cost, delivery time, and reliability among the ranked candidates. With a cost of $1478.4, it is cheaper than Vendor QuickPart Direct's $1590.0, and its delivery time of 11 days is faster compared to the latter'in 13 days. Additionally, the higher reliability score of 0.88 ensures less likelihood of unforeseen disruptions and delays, making it a more secure option. The rejected alternatives were less desirable: Vendor QuickPart Direct's higher cost and longer delivery time, coupled with a reliability score of 0.81, made it a less favorable choice. Furthermore, its significantly higher carbon footprint of 1380.0kg was a considerable environmental disadvantage in comparison to the chosen option's 396.0kg.",
+      "Verification passed. Plan applied successfully."
+    ],
+    "status": "resolved",
+    "chosen_plan": {
+      "product_id": "P006",
+      "vendor_id": "V07",
+      "vendor_name": "Bharat Electro Components",
+      "route_id": "R10",
+      "route_mode": "road",
+      "quantity": 120,
+      "total_cost_usd": 1478.4,
+      "total_carbon_kg": 396.0,
+      "total_days": 11,
+      "reliability_score": 0.88,
+      "score": 3.42
+    },
+    "justification": "The chosen option, Vendor Bharat Electro Components via road route, offers the best balance of cost, delivery time, and reliability among the ranked candidates. With a cost of $1478.4, it is cheaper than Vendor QuickPart Direct's $1590.0, and its delivery time of 11 days is faster compared to the latter'in 13 days. Additionally, the higher reliability score of 0.88 ensures less likelihood of unforeseen disruptions and delays, making it a more secure option. The rejected alternatives were less desirable: Vendor QuickPart Direct's higher cost and longer delivery time, coupled with a reliability score of 0.81, made it a less favorable choice. Furthermore, its significantly higher carbon footprint of 1380.0kg was a considerable environmental disadvantage in comparison to the chosen option's 396.0kg."
+  },
+  {
+    "label": "ACT 1",
+    "timestamp": "2026-09-13T20:19:14",
+    "decision_log": [
+      "Monitoring inventory, shipments, and vendor data...",
+      "No disruption detected. Staying in monitor mode."
+    ],
+    "status": "monitoring",
+    "chosen_plan": null,
+    "justification": ""
+  },
+  {
+    "label": "ACT 2",
+    "timestamp": "2026-09-13T20:19:23",
+    "decision_log": [
+      "Monitoring inventory, shipments, and vendor data...",
+      "Disruption detected: low_stock (urgency 0.889)",
+      "Retrieved 3 candidate vendor/route combinations for P006.",
+      "2 of 3 plans satisfy all constraints.",
+      "Selected vendor Bharat Electro Components via road route. Reasoning: The chosen option, Vendor Bharat Electro Components via a road route, presents the most favorable balance between cost, delivery time, and reliability. It costs $1478.4, which is significantly less than the rejected QuickPart Direct via air route at $1590.0, and its delivery time of 11 days is faster than the 13 days it would take QuickPart Direct. Furthermore, with a reliability of 0.88, this option provides a more dependable service than QuickPart Direct's 0.81. The rejected alternatives lost out mainly due to their higher costs, longer delivery times, and lower reliability ratings, making them less attractive to the supply chain agent aiming for a cost-effective and timely recovery plan.",
+      "Verification passed. Plan applied successfully."
+    ],
+    "status": "resolved",
+    "chosen_plan": {
+      "product_id": "P006",
+      "vendor_id": "V07",
+      "vendor_name": "Bharat Electro Components",
+      "route_id": "R10",
+      "route_mode": "road",
+      "quantity": 120,
+      "total_cost_usd": 1478.4,
+      "total_carbon_kg": 396.0,
+      "total_days": 11,
+      "reliability_score": 0.88,
+      "score": 3.42
+    },
+    "justification": "The chosen option, Vendor Bharat Electro Components via a road route, presents the most favorable balance between cost, delivery time, and reliability. It costs $1478.4, which is significantly less than the rejected QuickPart Direct via air route at $1590.0, and its delivery time of 11 days is faster than the 13 days it would take QuickPart Direct. Furthermore, with a reliability of 0.88, this option provides a more dependable service than QuickPart Direct's 0.81. The rejected alternatives lost out mainly due to their higher costs, longer delivery times, and lower reliability ratings, making them less attractive to the supply chain agent aiming for a cost-effective and timely recovery plan."
+  }
+]

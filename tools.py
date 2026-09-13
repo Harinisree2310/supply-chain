@@ -57,6 +57,25 @@ def get_constraints():
     return _load("constraints.json")
 
 
+def get_demo_logs():
+    path = os.path.join(DATA_DIR, "demo_logs.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, "r") as f:
+        return json.load(f)
+
+
+def append_demo_log(entry):
+    """Appends one completed run's summary to demo_logs.json. Used so the
+    standalone deployed viewer (demo_static.py) can show real past runs
+    without needing Ollama or any of the live agent code."""
+    logs = get_demo_logs()
+    logs.append(entry)
+    path = os.path.join(DATA_DIR, "demo_logs.json")
+    with open(path, "w") as f:
+        json.dump(logs, f, indent=2)
+
+
 def get_product_by_id(product_id):
     for p in get_products():
         if p["id"] == product_id:

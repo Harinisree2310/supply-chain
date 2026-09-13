@@ -3,15 +3,19 @@
   "vendors": {
     "V09": {
       "blocked_count": 0,
-      "chosen_count": 7
+      "chosen_count": 8
     },
     "V07": {
       "blocked_count": 0,
-      "chosen_count": 2
+      "chosen_count": 7
     },
     "V06": {
       "blocked_count": 0,
-      "chosen_count": 1
+      "chosen_count": 2
+    },
+    "V10": {
+      "blocked_count": 0,
+      "chosen_count": 2
     }
   }
 }

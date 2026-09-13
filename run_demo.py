@@ -1,11 +1,19 @@
 """
 run_demo.py
 -------------
-Two-act demo, run entirely in one script execution.
+Two-act demo, run entirely in one script execution. Also logs each run's
+results to data/demo_logs.json, which powers the deployable static viewer
+(demo_static.py) -- so anyone can browse real past runs online without
+installing Ollama.
+
+Usage:
+    python run_demo.py
 """
 
+import datetime
 from graph import build_graph, new_state
 import scenario
+import tools
 
 
 def print_result(final_state, label):
@@ -18,6 +26,15 @@ def print_result(final_state, label):
         print("Chosen plan:", final_state["chosen_plan"])
     if final_state.get("justification"):
         print("\nJustification:", final_state["justification"].strip())
+
+    tools.append_demo_log({
+        "label": label,
+        "timestamp": datetime.datetime.now().isoformat(timespec="seconds"),
+        "decision_log": final_state["decision_log"],
+        "status": final_state["status"],
+        "chosen_plan": final_state.get("chosen_plan"),
+        "justification": final_state.get("justification", "").strip(),
+    })
 
 
 def main():
