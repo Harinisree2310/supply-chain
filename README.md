@@ -7,7 +7,7 @@
 > An agent that monitors a retail supply chain, detects disruptions the moment they happen, diagnoses root causes, optimizes a recovery plan across cost/time/carbon/reliability, executes it, verifies the outcome, and **replans automatically** if that plan turns out to be wrong — end to end, with zero human decision in the loop.
 
 **🔴 [Live results viewer](https://supply-chain-xofybygvdqgg98qyxhwaco.streamlit.app/)** — see real, recorded agent runs, no install needed
-**🎥 [Demo video](#)** — *add your video link here*
+
 
 
 ---
